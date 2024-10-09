@@ -1,0 +1,26 @@
+<div class="almostbody">
+  <div class="conteiner">
+    <div>
+      <input type="string" id="inputNum" placeholder="0" [value]="currentInput">
+      <button class="buttonIcons" id="delete" (click)="clear()">C</button>
+    </div>
+    <div class="numberBtns">
+      <button class="numberBtn" id="1" (click)="toInput('1')">1</button>
+      <button class="numberBtn" id="2" (click)="toInput('2')">2</button>
+      <button class="numberBtn" id="3" (click)="toInput('3')">3</button>
+      <button class="buttonIcons" id="result" (click)="calculate()">=</button>
+      <button class="numberBtn" id="4" (click)="toInput('4')">4</button>
+      <button class="numberBtn" id="5" (click)="toInput('5')">5</button>
+      <button class="numberBtn" id="6" (click)="toInput('6')">6</button>
+      <button class="buttonIcons" id="dote" (click)="toInput('.')">.</button>
+      <button class="numberBtn" id="7" (click)="toInput('7')">7</button>
+      <button class="numberBtn" id="8" (click)="toInput('8')">8</button>
+      <button class="numberBtn" id="9" (click)="toInput('9')">9</button>
+      <button class="buttonIcons" id="plus" (click)="toInput('+')">+</button>
+      <button class="numberBtn" id="0" (click)="toInput('0')">0</button>
+      <button class="buttonIcons" id="minus" (click)="toInput('-')">-</button>
+      <button class="buttonIcons" id="mno" (click)="toInput('*')">*</button>
+      <button class="buttonIcons" id="delit" (click)="toInput('/')" >:</button>
+    </div>    
+  </div>
+</div> 
